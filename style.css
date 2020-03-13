@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+img {width: 100%;}
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 8%;
+  row-gap: 8%;
+}
+.row {width: 88%; max-width: 1200px; margin: 0 auto;}
+.header {
+  margin: 80px 0;
+}
+.header h2 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.4);
+}
